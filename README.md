@@ -1,3 +1,12 @@
+# setup react in the main directory: 
+npm create vite@latest ./
+use arrow keys to select: react
+use arrow keys to select: JavaScript
+
+# npm install wouter
+# npm install jotai
+# npm install axios
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
