@@ -30,7 +30,7 @@ export default function AddCard() {
     return <>
         <h1>Add Card</h1>
         <p>Number of Cards: {flashcards.length}</p>
-        <div class="col-md-5">
+        <div className="col-md-5">
             <div className="card form-control h-100">
                 <div className="mt-3 mb-3">
                     <label>Front:</label>

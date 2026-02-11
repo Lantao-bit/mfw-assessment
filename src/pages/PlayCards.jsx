@@ -18,8 +18,9 @@ export default function PlayCards() {
 
      const checkAnswer = () => {
         setShowBack(true);  
-        // Todo: use AI to judge how good the answer is  
-        if (answer == card.back){ setPoints("100")}
+        // Todo: use AI to judge how good the answer is   
+        if (answer == card.back){ setPoints("100")} 
+        else { setPoints("50")}
        
     }
 

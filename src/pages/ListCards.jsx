@@ -6,12 +6,13 @@ import Flashcard from "../components/Flashcard";
 export default function ListCards() {
     const [flashcards, setFlashcards] = useAtom(flashcardAtom);
     const [showBack, setShowBack] = useState(false);
-    const [playCards, setPlayCards] = useState()
+
+//  <button className="btn btn-success" >Add New</button>     
 
     return <>
         <div className="d-flex justify-content-between align-items-center mb-4">
             <h2>Manage Flashcards</h2>
-            <button className="btn btn-success">Add New</button>
+
             <button className="btn btn-primary" onClick={() => setShowBack(!showBack)}>Toggle Back</button>
         </div>
 

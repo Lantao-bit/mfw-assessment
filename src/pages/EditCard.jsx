@@ -37,7 +37,7 @@ export default function EditCard() {
 
     return <>
         <h1>Edit Card</h1>
-        <div class="col-md-5">
+        <div className="col-md-5">
             <div className="card form-control h-100">
 
                 <div className="mt-3 mb-3">

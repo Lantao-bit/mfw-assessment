@@ -7,11 +7,12 @@ import { Link, Router, Route } from 'wouter'
 // based on which route matches the current path  
 
 import axios from "axios";
-import { useAtom } from "jotai";
+import { useAtom } from "jotai";  // share "states" accross components
 
 // atom
 import flashcardAtom from "./atom/FlashcardAtom";
-//import component - not used 
+
+//the following import component is currently not used 
 //import Flashcard from "./components/Flashcard";
 
 // import pages
