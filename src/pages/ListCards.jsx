@@ -7,8 +7,6 @@ export default function ListCards() {
     const [flashcards, setFlashcards] = useAtom(flashcardAtom);
     const [showBack, setShowBack] = useState(false);
 
-//  <button className="btn btn-success" >Add New</button>     
-
     return <>
         <div className="d-flex justify-content-between align-items-center mb-4">
             <h2>Manage Flashcards</h2>
